@@ -753,6 +753,14 @@ h6{
   margin-top: -70px;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1083,6 +1091,12 @@ h6{
 .from-sky-900{
   --tw-gradient-from: #0c4a6e var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(12 74 110 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-sky-500{
+  --tw-gradient-from: #0ea5e9 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(14 165 233 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
